@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+//how to handle checkbox
 public class chckbox {
 	public static void main(String[] args) {
 		System.setProperty("webdriver.gecko.driver", "/Users/seamlesshr/eclipse-workspace/selnium001/drivrs/libs/geckodriver");
@@ -15,7 +16,7 @@ public class chckbox {
 		
 		driver.manage().window().maximize();
 		
-		//how to handle checkbox
+		//Navigating to website
 		driver.get("http://demo.guru99.com/test/radio.html");
 		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

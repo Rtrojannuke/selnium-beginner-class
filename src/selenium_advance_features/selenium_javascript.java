@@ -1,31 +1,31 @@
 package selenium_advance_features;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class fileUpload {
-	
+public class selenium_javascript {
+
 	public static void main(String[] args) {
-		
+		// TODO Auto-generated method stub
+
 		System.setProperty("webdriver.gecko.driver", "/Users/seamlesshr/eclipse-workspace/selnium001/drivrs/libs/geckodriver");
 		WebDriver driver = new FirefoxDriver();
 		
 		driver.manage().window().maximize();
 		
-		driver.get("http://demo.guru99.com/test/upload/");
+		driver.get("http://www.javascriptkit.com/javatutors/event2.shtml");
 		
-		String projectpath = System.getProperty("user.dir");
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
-		String filepath =  projectpath+"/tdocs/Quiz3.pdf";
+		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div[1]/table/tbody/tr/td[2]/form/input")).click();
 		
+	
 		
-		WebElement upldbtn =  driver.findElement(By.xpath("//*[@id=\"uploadfile_0\"]"));
-		upldbtn.sendKeys(filepath);
-		
-		
-		
+
 	}
 
 }
