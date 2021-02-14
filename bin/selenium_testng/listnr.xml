@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "suite 07">
+<listeners>
+	<listener class-name="listnrs.listen"/>
+</listeners>
+
+	<test verbose = "2" name = "ng">
+	
+<!-- This xml file focuses on using listenerAdapter with tests in the login.java file in the listnrs package. 
+The listenerAdapter has different tags which can be used(onTestSuccess and onTestFailure was used) and depending on whether test passed or fail 
+the different methods in the listen.java was called-->
+		<classes>
+		<class name= "listnrs.login"/>  
+		</classes>
+	</test>
+</suite>

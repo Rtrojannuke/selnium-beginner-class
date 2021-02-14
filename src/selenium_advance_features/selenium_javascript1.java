@@ -23,6 +23,8 @@ public class selenium_javascript1 {
 		//Using element name to click on it in Javascript Executor
 		((JavascriptExecutor) driver).executeScript("document.getElementsByName('fd0')[0].click()");
 		
+		
+		
 
 	}
 

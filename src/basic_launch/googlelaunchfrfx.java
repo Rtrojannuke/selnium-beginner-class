@@ -13,10 +13,10 @@ public class googlelaunchfrfx {
 		
 		driver.get("https://www.google.com/");
 		
-		//Using the Starts-with method
+		//Using the Starts-with() method to create an xpath when dealing with dynamic xpath
 		driver.findElement(By.xpath("//a[starts-with(@id,'gb_7')]")).click();
 		
-		//Using contains() method
+		//Using contains() method to create an xpath when dealing with dynamic xpath
 		driver.findElement(By.xpath("//a[contains(@id,'b_7')]")).click();
 		
 		

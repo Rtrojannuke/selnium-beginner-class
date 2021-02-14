@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "suite 01">
+	<test verbose = "2" name = "run">
+		<groups>
+		<run>
+		<include name = "Smoke"/>
+		<exclude name = "Performance"/>
+		</run>
+<!-- The xml file serves as test suite for running test whose group falls under Performace in the tc_testng_grouping.java class 
+include: runs the class which falls under group of Smoke
+exclude:doesn't run test which fall under Performace (including the test that has both performance, smoke has it's group)
+-->
+		</groups>
+		<classes>
+		<class name= "selenium_testng.tc_testng_grouping"/>  
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "suite 02">
+	<suite-files>
+	<!-- This is to show that multiple test suites can be excuted by placing them in another testsuite by using the suite-file tags. -->
+	<!-- Testsuite(s) can be embedded in testsuite as well so as to execute mutiple testsuite(s) -->
+	 <suite-file path = "./tesng.xml"/>
+	
+	</suite-files>
+</suite>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-14T08:07:35 WAT" name="suite 01" finished-at="2021-02-14T08:07:35 WAT" duration-ms="103">
+    <groups>
+    </groups>
+    <test started-at="2021-02-14T08:07:35 WAT" name="Basic run" finished-at="2021-02-14T08:07:35 WAT" duration-ms="103">
+      <class name="selenium_testng.tc_testng_dataprovider_class_2">
+        <test-method signature="logn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_testng.tc_testng_dataprovider_class_2@55b7a4e0]" started-at="2021-02-14T08:07:35 WAT" name="logn" data-provider="log" finished-at="2021-02-14T08:07:35 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[011]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bill]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rb@email.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Rbnm]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logn -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:selenium_testng.tc_testng_dataprovider_class_2@55b7a4e0]" started-at="2021-02-14T08:07:35 WAT" name="login" data-provider="log" finished-at="2021-02-14T08:07:35 WAT" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Data Provider public static java.lang.Object[][] selenium_testng.tc_testng_dataprovider_file.log(java.lang.reflect.Method) returned a null value]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Data Provider public static java.lang.Object[][] selenium_testng.tc_testng_dataprovider_file.log(java.lang.reflect.Method) returned a null value
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:149)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:801)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:744)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:783)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.TestNG.privateMain(TestNG.java:1336)
+at org.testng.TestNG.main(TestNG.java:1304)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="logn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_testng.tc_testng_dataprovider_class_2@55b7a4e0]" started-at="2021-02-14T08:07:35 WAT" name="logn" data-provider="log" finished-at="2021-02-14T08:07:35 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[021]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rah]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Rahul1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logn -->
+        <test-method signature="logn(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_testng.tc_testng_dataprovider_class_2@55b7a4e0]" started-at="2021-02-14T08:07:35 WAT" name="logn" data-provider="log" finished-at="2021-02-14T08:07:35 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[031]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rabb]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rabrob@email.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Rahul1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logn -->
+      </class> <!-- selenium_testng.tc_testng_dataprovider_class_2 -->
+      <class name="selenium_testng.tc_testng_dataprovider_class_1">
+        <test-method signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_testng.tc_testng_dataprovider_class_1@6eda5c9]" started-at="2021-02-14T08:07:35 WAT" name="login" data-provider="login" finished-at="2021-02-14T08:07:35 WAT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bill]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rb@email.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Rbnm]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_testng.tc_testng_dataprovider_class_1@6eda5c9]" started-at="2021-02-14T08:07:35 WAT" name="login" data-provider="login" finished-at="2021-02-14T08:07:35 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rah]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Rahul1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_testng.tc_testng_dataprovider_class_1@6eda5c9]" started-at="2021-02-14T08:07:35 WAT" name="login" data-provider="login" finished-at="2021-02-14T08:07:35 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rabb]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rabrob@email.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Rahul1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_testng.tc_testng_dataprovider_class_1@6eda5c9]" started-at="2021-02-14T08:07:35 WAT" name="registration" data-provider="registration" finished-at="2021-02-14T08:07:35 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ril]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bill]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rb@email.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Rbnm]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method signature="registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_testng.tc_testng_dataprovider_class_1@6eda5c9]" started-at="2021-02-14T08:07:35 WAT" name="registration" data-provider="registration" finished-at="2021-02-14T08:07:35 WAT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Robb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rabb]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rabrob@email.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Rahul1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method signature="registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium_testng.tc_testng_dataprovider_class_1@6eda5c9]" started-at="2021-02-14T08:07:35 WAT" name="registration" data-provider="registration" finished-at="2021-02-14T08:07:35 WAT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rahul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rah]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Rahul1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+      </class> <!-- selenium_testng.tc_testng_dataprovider_class_1 -->
+    </test> <!-- Basic run -->
+  </suite> <!-- suite 01 -->
+</testng-results>

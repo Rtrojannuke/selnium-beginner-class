@@ -24,7 +24,7 @@ public class waits {
 		
 		//Smart wait(Dynamic)
 		WebDriverWait wait = new WebDriverWait(driver, 10);
-		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id=\"submitbutton\"]")));
+		//wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id=\"submitbutton\"]")));
 		
 		
 		
